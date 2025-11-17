@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Card</title>
+  <style>
+    .profile-card {
+      width: 300px;
+      height: 400px;
+      margin: 50px auto;              /* centers the card */
+      padding: 20px;                  /* space inside the card */
+      border: 2px solid black;        /* box model: border */
+      border-radius: 10px;            /* rounded corners */
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.3);  /* subtle shadow */
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;             /* circular image */
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 15px;            /* center image, add space below */
+    }
+
+    .profile-card h2 {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+
+    .profile-card p {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="https://placehold.co/150x150" alt="Profile Photo">
+    <h2>John Doe</h2>
+    <p>
+      A short description about the person goes here. 
+      This is just sample text for the profile card.
+    </p>
+  </div>
+
+</body>
+</html>
