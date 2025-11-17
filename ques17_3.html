@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Showcase Box</title>
+
+  <style>
+    .product-box {
+      width: 500px;
+      height: 600px;
+      margin: 10px auto;              /* 10px margin outside */
+      padding: 30px;                  /* 30px padding inside */
+      border: 3px solid grey;         /* required border */
+      border-radius: 12px;            /* rounded corners */
+      box-shadow: 3px 3px 10px rgba(0,0,0,0.25); /* smooth shadow */
+
+      display: flex;                  /* used to center vertically */
+      flex-direction: column;
+      justify-content: center;        /* vertical centering */
+      align-items: center;            /* horizontal centering */
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .product-box img {
+      width: 100%;                    /* image full width */
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product-box h3 {
+      margin: 10px 0;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .product-box p {
+      font-size: 16px;
+      margin: 8px 0 20px;
+    }
+
+    .buy-btn {
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="product-box">
+    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/w/x/h/-original-imahfa7xspmxemvj.jpeg" alt="Product Image">
+
+    <h3>Samsung Galaxy Watch 6 LTE</h3>
+
+    <p>Graphite Strap, 44mm – Advanced health tracking smart watch.</p>
+
+    <button class="buy-btn">Buy Now</button>
+  </div>
+
+</body>
+</html>
