@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 450px);
+      grid-template-rows: repeat(3, 300px);
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .b2 { background: #ff5a00; }
+    .b3 { background: #3375ff; }
+    .b4 { background: #ffd400; color: black; }
+    .b5 { background: #9b27ff; }
+    .b6 { background: #00c53f; }
+    .b1 { background: #00c5ff; }
+    .b7 { background: #ff8a50; }
+    .b8 { background: #00b8b8; }
+    .b9 { background: #7b0000; }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="box b2">2.</div>
+    <div class="box b3">3.</div>
+    <div class="box b4">4.</div>
+    <div class="box b5">5.</div>
+    <div class="box b6">6.</div>
+    <div class="box b1">1.</div>
+    <div class="box b7">7.</div>
+    <div class="box b8">8.</div>
+    <div class="box b9">9.</div>
+  </div>
+</body>
+</html>
